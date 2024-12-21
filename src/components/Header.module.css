@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header > .siteName {
+    color: rgb(61,	44,	104);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.header > .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+    color: rgb(208, 207, 214);
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.header > .signIn {
+    color: white;
+    background-color: rgb(119,	207, 190);
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    cursor: pointer;
+}
