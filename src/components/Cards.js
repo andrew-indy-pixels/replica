@@ -4,9 +4,9 @@ import styles from './Cards.module.css';
 export default function Cards ({ data }) {
     return (
         <div className={styles.cards}>
-            {['1', '2', '3', '1', '2'].map(image => {
+            {['1', '2', '3', '1', '2', '2', '1', '2', '3', '3'].map((image, index) => {
                 return (
-                    <div className={styles.card}>
+                    <div className={styles.card} key={`${image}${index}`}>
                         <div className={styles.image}>
                             <Image
                                 aria-hidden
