@@ -1,11 +1,36 @@
 .subHeader {
-
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 100px;
 }
 
-.subHeader > .subHeaderTitle {
-
+.subHeader > .subHeaderTitleContainer {
+    width: 60%;
 }
 
-.subHeader > .subHeaderSubTitle {
-    
+.subHeader > .filler {
+    width: 30%;
+}
+
+.subHeader > .subHeaderTitleContainer > .subHeaderTitle {
+    color: rgb(61,	44,	104);
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.subHeader > .subHeaderTitleContainer > .subHeaderSubTitle {
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(180	179	189	)
+}
+
+.subHeader > .uploadSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    border: 1px dashed rgb(119,207,190);
+    border-radius: 5px;
+    background: rgb(246	252	252	)
 }
