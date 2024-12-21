@@ -5,6 +5,15 @@
     margin-top: 100px;
 }
 
+@media (max-width: 600px) {
+    .subHeader {
+        /* flex: 0 0 33.3333%; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .subHeader > .subHeaderTitleContainer {
     width: 60%;
 }
@@ -34,4 +43,13 @@
     border-radius: 5px;
     background: rgb(246	252	252	);
     cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .subHeader > .uploadSection {
+        /* flex: 0 0 33.3333%; */
+        margin-top: 20px;
+        width: 50%;
+        height: 100px;
+    }
 }

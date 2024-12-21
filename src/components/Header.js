@@ -7,8 +7,8 @@ export default function Header () {
                 stylepilled
             </div>
             <div className={styles.links}>
-                <div>trending</div>
-                <div>leading</div>
+                <div className={styles.link}>trending</div>
+                <div className={styles.link}>leading</div>
             </div>
             <div className={styles.signIn}>
                 Sign In

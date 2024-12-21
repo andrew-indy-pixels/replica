@@ -21,6 +21,18 @@
     cursor: pointer;
 }
 
+@media (max-width: 600px) {
+    .header > .links {
+        justify-content: center;
+        margin-top: 2px;
+        width: 200px;
+    }
+
+    .header > .links > .link {
+        margin-left: 5px;
+    }
+}
+
 .header > .signIn {
     color: white;
     background-color: rgb(119,	207, 190);

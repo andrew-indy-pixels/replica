@@ -1,0 +1,75 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cards > .card {
+    /* flex: 0 0 33.3333%; */
+    display: flex;
+    flex-direction: column;
+    height: 373px;
+    width: 400px;
+    margin: 20px;
+}
+
+@media (max-width: 600px) {
+    .cards {
+        /* flex: 0 0 33.3333%; */
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+}
+
+.cards > .card > .image {
+    height: 80%;
+    width: 100%;
+}
+
+.cards > .card > .caption {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.cards > .card > .caption > .title {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.cards > .card > .caption > .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cards > .card > .caption > .info > .lastSeen {
+    font-size: 15px;
+    margin-top: 4px;
+}
+
+.cards > .card > .caption > .info > .tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cards > .card > .caption > .info > .tags > .tag {
+    color: white;
+    background-color: rgb(119,	207, 190);
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 2px;
+}
