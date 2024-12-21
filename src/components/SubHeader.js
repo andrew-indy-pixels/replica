@@ -1,6 +1,10 @@
 import styles from './SubHeader.module.css';
 import { MdOutlineFileUpload } from "react-icons/md";
-const iconStyle = { color: "rgb(119,207,190)", fontSize: "2.5em" }
+
+const iconStyle = {
+    color: "rgb(119,207,190)",
+    fontSize: "2.5em"
+};
 
 export default function SubHeader () {
     return (

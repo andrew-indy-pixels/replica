@@ -32,5 +32,6 @@
     width: 10%;
     border: 1px dashed rgb(119,207,190);
     border-radius: 5px;
-    background: rgb(246	252	252	)
+    background: rgb(246	252	252	);
+    cursor: pointer;
 }
